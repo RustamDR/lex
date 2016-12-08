@@ -3,7 +3,7 @@
 %}
 %option main
 
-COMMENT ^\".*[\"|\n]{1} 
+COMMENT \".*(\"|\n)
 
 %%
 
