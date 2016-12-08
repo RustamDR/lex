@@ -5,8 +5,9 @@
 %option main
 
 COMM_START \/\*
-TEXT (.*)?
+TEXT (.|\n)*
 COMM_END \*\/
+
 
 %%
 
