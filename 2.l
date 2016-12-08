@@ -8,8 +8,8 @@ COMMENT ^\/{2}.*
 
 %%
 
-{COMMENT} { std::cout << yytext; }
 {NOTCOMMENT}
+{COMMENT} { std::cout << yytext; }
 .|\n
 
 %%
