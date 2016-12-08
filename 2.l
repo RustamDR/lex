@@ -3,7 +3,7 @@
 %}
 %option main
 
-NOTCOMMENT \/{2}.*\\{1}
+NOTCOMMENT \/{2}.*\\
 COMMENT \/{2}.*
 
 %%
